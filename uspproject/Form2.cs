@@ -30,7 +30,7 @@ namespace uspproject
                 label8.ForeColor = System.Drawing.Color.Green;
                 cnn.Close();
             }
-            catch(Exception ex)
+            catch
             {
                 label8.Text = "Неуспешна";
                 label8.ForeColor = System.Drawing.Color.Red;
@@ -72,7 +72,7 @@ namespace uspproject
                             cmd.ExecuteNonQuery();
                             cnn.Close();
                         }
-                        catch (Exception ex)
+                        catch
                         {
                             MessageBox.Show("SQL Insert failed.");
                         }
