@@ -31,8 +31,15 @@ namespace uspproject
         {
             selectedIndex = comboBox1.SelectedIndex;
             searchText = textBox1.Text;
-            Form3 form3 = new Form3();
-            form3.Show();
+            if (searchText == "")
+            {
+                MessageBox.Show("Полето за търсене е задължително.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Form3 form3 = new Form3();
+                form3.Show();
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

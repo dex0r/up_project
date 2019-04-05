@@ -20,7 +20,8 @@ namespace uspproject
         OleDbConnection cnn;
         private void Form3_Load(object sender, EventArgs e)
         {
-            string connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\scroLLeR\\Documents\\uspdb.accdb";
+            string dbDir = AppDomain.CurrentDomain.BaseDirectory + "uspdb.accdb";
+            string connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + dbDir.Replace("\\", "\\\\");
             cnn = new OleDbConnection(connString);
             try
             {
@@ -29,9 +30,6 @@ namespace uspproject
                 label2.ForeColor = System.Drawing.Color.Green;
                 string searchText = Form1.searchText;
                 string keyword = "";
-
-                string output = "";
-
                 switch (Form1.selectedIndex)
                 {
                     case 0: keyword = "Brand";
@@ -51,6 +49,7 @@ namespace uspproject
 
                 OleDbDataReader reader = null;
                 OleDbCommand command = null;
+
                 if(keyword == "Brand")
                 {
                     command = new OleDbCommand("SELECT b.Brand, p.Model, p.Camera, o.OS, p.Battery, p.Price FROM ((Phones p INNER JOIN Brands b on p.Brand = b.ID) LEFT JOIN OS o on p.OS = o.ID) WHERE b.Brand = ?", cnn);
@@ -60,7 +59,6 @@ namespace uspproject
                     command = new OleDbCommand("SELECT b.Brand, p.Model, p.Camera, o.OS, p.Battery, p.Price FROM ((Phones p INNER JOIN Brands b on p.Brand = b.ID) LEFT JOIN OS o on p.OS = o.ID) WHERE p." + keyword + " = ?", cnn);
                 }
 
-                
                 command.Parameters.Add(new OleDbParameter("@searchValue", searchText));
                 reader = command.ExecuteReader();
                 dataGridView1.ColumnCount = 6;
@@ -73,18 +71,13 @@ namespace uspproject
                 while (reader.Read())
                 {
                     string[] row = new string[] { reader["Brand"].ToString(), reader["Model"].ToString(), reader["Camera"].ToString()+" mpx", reader["OS"].ToString(), reader["Battery"].ToString() + " mAh", reader["Price"].ToString() + " лв." };
-                    dataGridView1.Rows.Add(row);
-                    output = output + reader["Brand"].ToString() + reader["Model"].ToString() + "\n";
-                    MessageBox.Show(output);
+                    dataGridView1.Rows.Add(row);                    
                 }
-
-
             }
             catch
             {
                 label2.Text = "Неуспешна";
                 label2.ForeColor = System.Drawing.Color.Red;
-                //button1.Enabled = false;
             }
         }
 

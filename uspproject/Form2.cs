@@ -21,7 +21,8 @@ namespace uspproject
         OleDbConnection cnn;
         private void Form2_Load(object sender, EventArgs e)
         {
-            string connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\scroLLeR\\Documents\\uspdb.accdb";
+            string dbDir = AppDomain.CurrentDomain.BaseDirectory + "uspdb.accdb";
+            string connString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + dbDir.Replace("\\", "\\\\");
             cnn = new OleDbConnection(connString);
             try
             {
