@@ -1,0 +1,14 @@
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\bin\Release\uspproject.exe.config
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\bin\Release\uspproject.exe
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\bin\Release\uspproject.pdb
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.csprojResolveAssemblyReference.cache
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.AddPhone.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.AdminPanel.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.AllPhones.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.Main.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.Login.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.Phone.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.Properties.Resources.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.csproj.GenerateResource.Cache
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.exe
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Release\uspproject.pdb

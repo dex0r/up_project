@@ -1,0 +1,10 @@
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\bin\x86\Debug\uspproject.exe.config
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\bin\x86\Debug\uspproject.exe
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\bin\x86\Debug\uspproject.pdb
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.Form1.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.Form2.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.Properties.Resources.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.csproj.GenerateResource.Cache
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.exe
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.pdb
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\x86\Debug\uspproject.Form3.resources

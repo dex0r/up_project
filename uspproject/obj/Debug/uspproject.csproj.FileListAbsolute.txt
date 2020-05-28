@@ -1,0 +1,27 @@
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\bin\Debug\uspproject.exe.config
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\bin\Debug\uspproject.exe
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\bin\Debug\uspproject.pdb
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.Properties.Resources.resources
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.csproj.GenerateResource.Cache
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.exe
+c:\users\scroller\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.pdb
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.Login.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.Phone.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.AdminPanel.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.AddPhone.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.AllPhones.resources
+C:\Users\scroLLeR\documents\visual studio 2013\Projects\uspproject\uspproject\obj\Debug\uspproject.Main.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\bin\Debug\uspproject.exe.config
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.exe
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.pdb
+D:\scroLLeR\Programming challenges\uspproject\uspproject\bin\Debug\uspproject.exe
+D:\scroLLeR\Programming challenges\uspproject\uspproject\bin\Debug\uspproject.pdb
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.csprojResolveAssemblyReference.cache
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.AddPhone.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.AdminPanel.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.AllPhones.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.Main.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.Login.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.Phone.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.Properties.Resources.resources
+D:\scroLLeR\Programming challenges\uspproject\uspproject\obj\Debug\uspproject.csproj.GenerateResource.Cache
